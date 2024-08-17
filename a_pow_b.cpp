@@ -1,3 +1,9 @@
+/*
+Problem - to find the a power b 
+
+Ex -  2 power 3 = 8
+
+*/
 #include<bits/stdc++.h>
 #define endl "\n"
 using namespace std;
