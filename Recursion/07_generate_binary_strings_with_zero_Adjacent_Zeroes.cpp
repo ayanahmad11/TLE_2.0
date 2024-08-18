@@ -18,6 +18,7 @@ The valid strings of length 3 are: "010", "011", "101", "110", and "111".
 using namespace std;
 
 
+
 void helper(int n,vector<string>&ans,string s){
 	if(n==0)
 	{
@@ -36,11 +37,9 @@ void helper(int n,vector<string>&ans,string s){
 }
 vector<string> validStrings(int n){
 	
-	string ans="";
+	vector<string> ans;
 	helper(n,ans,"");
-	for(auto x:ans)
-		cout<<x<<" ";
-	cout<<endl;
+	return ans;
 
 }
 
@@ -51,7 +50,12 @@ ios_base::sync_with_stdio(0); cin.tie(0);
 
 int n;
 cin>>n;
-validStrings(n);
+for(auto z:validStrings(n))
+{
+	cout<<z<<" ";
+	
+}
+cout<<endl;
 
 
 
