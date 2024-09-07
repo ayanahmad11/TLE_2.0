@@ -8,6 +8,12 @@ return all possible subsets (the power set).
 
 The solution set must not contain duplicate subsets.
  Return the solution in any order.
+ 
+Thus, the overall time complexity of the algorithm is:
+
+Time Complexity: O(n*2^n);
+Space Complexity : O(2^n)
+
 */
 class Solution {
     void helper(vector<vector<int>>&ans , int n ,int i,vector<int> temp, vector<int>&nums){

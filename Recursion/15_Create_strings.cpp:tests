@@ -1,0 +1,19 @@
+[
+	{
+		"correct_answers":
+		[
+			"4\naaab\naaba\nabaa\nbaaa"
+		],
+		"test": "aaba\n"
+	},
+	{
+		"test": "ayan\n"
+	},
+	{
+		"correct_answers":
+		[
+			"3\naab\naba\nbaa"
+		],
+		"test": "aab\n"
+	}
+]
